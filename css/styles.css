@@ -1,152 +1,168 @@
-  #title{
-  background-color: #ff4c68;
-
-}
-body{
-
-    font-family: 'Montserrat', sans-serif;
-}
-h1{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-  color: white;
-  font-weight:bold;
-}
- .container-fluid{
-  padding: 3% 15% 0% 15%;
-
-
-}
-.navbarclass{
-  font-family: Montserrat-light;
-  padding-left:18px;
-  padding-right:18px;
-  font-size:1.2rem;
-  margin-bottom: 0;
-}
-.titleimg{
-
-  position: relative;
-  width: 58%;
-  left: 30px;
-  transform: rotate(20deg);
-   height: 100%;
-  margin-left: 20%;
-  margin-top: 0px;
-}
-.h3class{font-size: 1.5rem;
-  font-family: Montserrat-dark;
-  font-weight: bold;
-  text-align: center;
-}p{
-  text-align: center;
-  color: #8f8f8f8f;
-}
-.sbimg{
-  text-align: center;
-  margin-bottom: 30px;
-  color: #ef8172;
-}
-.sbimg:hover{
-  color:#ff4c68;
-}
-#features{text-align: center;
-background-color: white;
-  padding:10% 7%;
-
-    z-index: 2;
-    position: relative;
-}
-#testimonials{
-  text-align: center;
-  background-color:#ff4c68;
-  color: white;
-  font-family: Montserrat;
-}
-.testimonialtext{
-  font-size: 2.5rem;
-  margin-bottom: 40px;
-  line-height: 1.5;
-}
-.testimonialimg{
-  border-radius: 100%;
-}
-
-#press{
-  background-color: #ff4c68;
-  text-align: center;
-  padding-bottom: 3%;
-}
-.presslogo{
-  width: 10%;
-  margin: 20px 20px 20px;
-}
-.carousel-item{
-  padding: 7% 15%;
-}
-.card{
-  text-align: center;
-}
-
-#pricing{
-  background-color: white;
-  text-align: center;
-  padding: 10%;
-  font-family: Montserrat-light;
-
-}
-.btn-outline-danger{
-  color:#ef8172;
-
-}
-.btn-outline-danger:hover{
-  background-color: #ff4c68;
-}
-.btn-danger{
-  background-color: #ff4c68;
-}
-.card-header{
-  background-color: #ff4c68;
-  color: white;
-}
-#cta{
-background-color:  #ff4c68;
-color: white;
-font-family: Montserrat-dark;
-font-weight: bold;
-padding: 5% 15% 5% 15%;
-
-text-align: center;
-}
-.ottomh3{
-  margin-bottom: 30px;
-  font-weight: bold;
-  font-size: 50px;
-}
-#footer{
-  text-align: center;
-  margin-top: 30px;
-  font-family: Montserrat-light;
-}
-
-
-
-.tadaa{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 20px;
-}
-
-@media (max-width: 800px){
-  .titleimg{
-    margin-left: 0;
-    left: 0;
-margin-top: 30px;
-    position: static;
-    transform: rotate(0);
+  #title {
+    background-color: #ff4c68;
   }
-  .container-fluid{
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: bold;
+  }
+
+  .container-fluid {
+    padding: 3% 15% 0% 15%;
+  }
+
+  .navbarclass {
+    font-family: Montserrat-light;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  .titleimg {
+    position: relative;
+    width: 58%;
+    left: 30px;
+    transform: rotate(20deg);
+    height: 100%;
+    margin-left: 20%;
+    margin-top: 0px;
+  }
+
+  .h3class {
+    font-size: 1.5rem;
+    font-family: Montserrat-dark;
+    font-weight: bold;
     text-align: center;
   }
-}
+
+  p {
+    text-align: center;
+    color: #8f8f8f8f;
+  }
+
+  .sbimg {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ef8172;
+  }
+
+  .sbimg:hover {
+    color: #ff4c68;
+  }
+
+  #features {
+    text-align: center;
+    background-color: white;
+    padding: 10% 7%;
+    z-index: 2;
+    position: relative;
+  }
+
+  #testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    font-family: Montserrat;
+  }
+
+  .testimonialtext {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    line-height: 1.5;
+  }
+
+  .testimonialimg {
+    border-radius: 100%;
+  }
+
+  #press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  .presslogo {
+    width: 10%;
+    margin: 20px 20px 20px;
+  }
+
+  .carousel-item {
+    padding: 7% 15%;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+  #pricing {
+    background-color: white;
+    text-align: center;
+    padding: 10%;
+    font-family: Montserrat-light;
+  }
+
+  .btn-outline-danger {
+    color: #ef8172;
+  }
+
+  .btn-outline-danger:hover {
+    background-color: #ff4c68;
+  }
+
+  .btn-danger {
+    background-color: #ff4c68;
+  }
+
+  .card-header {
+    background-color: #ff4c68;
+    color: white;
+  }
+
+  #cta {
+    background-color: #ff4c68;
+    color: white;
+    font-family: Montserrat-dark;
+    font-weight: bold;
+    padding: 5% 15% 5% 15%;
+    text-align: center;
+  }
+
+  .ottomh3 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  #footer {
+    text-align: center;
+    margin-top: 30px;
+    font-family: Montserrat-light;
+  }
+
+  .tadaa {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 800px) {
+    .titleimg {
+      margin-left: 0;
+      left: 0;
+      margin-top: 30px;
+      position: static;
+      transform: rotate(0);
+    }
+
+    .container-fluid {
+      text-align: center;
+    }
+  }
